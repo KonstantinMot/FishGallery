@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FishGallery</string>
+    <string name="header_title">Компания “Blue Rose”</string>
+    <string name="footer_title">С заботой, Blue Rose</string>
+    <string name="our_catch_title">Наш улов</string>
+    <string name="our_profit_title">Наша прибыль</string>
+    <string name="our_partners_title">Наши партнеры</string>
+</resources>
