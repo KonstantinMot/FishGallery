@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FishGallery</string>
-    <string name="header_title">Company \"Blue Rose\"</string>
+    <string name="header_title">Company</string>
     <string name="footer_title">With care, Blue Rose</string>
     <string name="our_catch_title">Our catch</string>
     <string name="our_profit_title">Our profit</string>
     <string name="our_partners_title">Our partners</string>
+    <string name="our_catch_value">~ %d tons</string>
+    <string name="our_profit_value">> %d credits</string>
+    <string name="our_partners_value">%d+ partners</string>
+    <string name="currency_value">%d credits</string>
 </resources>

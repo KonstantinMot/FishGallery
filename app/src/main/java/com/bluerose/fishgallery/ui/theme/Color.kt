@@ -1,5 +1,6 @@
 package com.bluerose.fishgallery.ui.theme
 
+
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)
@@ -11,8 +12,9 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val PrimaryColor=Color(0xFFEEF4F3)
-val OnPrimaryColor= Color(0xFF518DAF)
+val OnPrimaryColor= Color(0xFF9FC0D1)
 val SecondaryColor=Color(0xFFFFFFFF)
 val OnSecondaryColor=Color(0xFF9ECBC6)
 val SurfaceColor=Color(0xFFFFFFFF)
 val OnSurfaceColor=Color(0xFFC8DAC7)
+val Background=Color(0xFF2196F3)
