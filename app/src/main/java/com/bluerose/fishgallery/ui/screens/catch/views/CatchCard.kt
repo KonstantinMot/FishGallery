@@ -1,4 +1,4 @@
-package com.bluerose.fishgallery.ui.screens.catching.views
+package com.bluerose.fishgallery.ui.screens.catch.views
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

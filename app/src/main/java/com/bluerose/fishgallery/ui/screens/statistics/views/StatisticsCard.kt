@@ -1,6 +1,7 @@
 package com.bluerose.fishgallery.ui.screens.statistics.views
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -11,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -22,11 +24,19 @@ import com.bluerose.fishgallery.ui.theme.FishGalleryTheme
 import dashedBorder
 
 @Composable
-fun StatisticsCard(label: String, text: String, modifier: Modifier, shape: RoundedCornerShape) {
+fun StatisticsCard(
+    label: String,
+    text: String,
+    onClick: (() -> Unit)? = null,
+    shape: RoundedCornerShape,
+    modifier: Modifier
+) {
     Column(
         modifier = modifier
             .background(MaterialTheme.colorScheme.surface, shape)
             .dashedBorder(3.dp, Color(0xff000000).copy(0.1f), shape, on = 10.dp, off = 8.dp)
+            .clip(shape)
+            .let { if (onClick != null) it.clickable(onClick = onClick) else it }
             .padding(top = 24.dp, start = 20.dp),
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.spacedBy(16.dp)

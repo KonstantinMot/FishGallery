@@ -5,8 +5,8 @@
     <string name="our_catch_title">Our catch</string>
     <string name="our_profit_title">Our profit</string>
     <string name="our_partners_title">Our partners</string>
-    <string name="our_catch_value">~ %d tons</string>
-    <string name="our_profit_value">> %d credits</string>
-    <string name="our_partners_value">%d+ partners</string>
-    <string name="currency_value">%d credits</string>
+    <string name="our_catch_value">~%,d tons</string>
+    <string name="our_profit_value">> %,.1f credits</string>
+    <string name="our_partners_value">%,d+ partners</string>
+    <string name="currency_value">%s credits</string>
 </resources>
